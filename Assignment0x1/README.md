@@ -1,10 +1,5 @@
-# Assignment 0x1: Linking and Loading
 
-For this assignment, you will be given a library source (memsets.c) that
-implements different version of *memset()* functions along with driver sources
-(driver0.c, driver1.c, ...) for different parts of assignments. You need to
-implement different ways to link or load library functions by carrying out
-different parts of assignments.
+This project shows different ways to link or load library functions.
 
 ## Part 0 (0 point - warmup)
 
@@ -58,14 +53,3 @@ __replace_me__ to appropriate variables and update Makefile accordingly.
 This assignment is again based on part3. While you run the output executable
 from part3, you will intercept library loading (LD_PRELOAD) to replace memset()
 from libc library to something else (e.g., memset1).
-
-## Files to summit
-
-* Updated sources + Makefile 
-* Solution.md A briefly write-up to explain your solutions. 
-
-Zip above files, and sign with your public key. 
-
-----
-[An Introduction to Makefiles]:https://www.gnu.org/software/make/manual/html_node/Introduction.html
-[dlfcn.h]:https://linux.die.net/man/3/dlopen
